@@ -1,12 +1,13 @@
 import 'package:campus_crush/modules/login/screen/login_view.dart';
 import 'package:campus_crush/modules/onboarding/screen/onboarding_view.dart';
 import 'package:campus_crush/routes/app_routes.dart';
+import 'package:campus_crush/services/login_manager.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
 // GoRouter configuration
 final router = GoRouter(
-  initialLocation: '/',
+  initialLocation: LoginManager.isLogin ? "/" : '/login',
   navigatorKey:
       GlobalNavigation.instance.navigatorKey, // Use the global key here
   routes: [
@@ -15,7 +16,6 @@ final router = GoRouter(
       path: Routes.login,
       builder: (context, state) => const LoginScreen(),
     ),
-
     GoRoute(
       name: Names.onboarding,
       path: Routes.onboarding,

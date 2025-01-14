@@ -2,8 +2,16 @@
 class Assets {
   Assets._();
   
-  /// Assets for imagesLogo
-  /// assets/images/logo.jpg
-  static const String imagesLogo = "assets/images/logo.jpg";
+  /// Assets for iconsIndianFlag
+  /// assets/icons/indian_flag.svg
+  static const String iconsIndianFlag = "assets/icons/indian_flag.svg";
+
+  /// Assets for iconsWhatsAppIcon
+  /// assets/icons/whatsApp_icon.svg
+  static const String iconsWhatsAppIcon = "assets/icons/whatsApp_icon.svg";
+
+  /// Assets for imagesC2Logo
+  /// assets/images/c2_logo.png
+  static const String imagesC2Logo = "assets/images/c2_logo.png";
 }
 

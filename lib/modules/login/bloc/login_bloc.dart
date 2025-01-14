@@ -5,5 +5,10 @@ import 'package:campus_crush/modules/login/bloc/login_state.dart';
 class LoginBloc extends Bloc<LoginEvent, LoginState> {
   LoginBloc() : super(LoginInitial()) {
     on<LoginEvent>((event, emit) {});
+    on<OtpSentEvent>(
+      (event, emit) {
+        emit(OtpSentState());
+      },
+    );
   }
 }

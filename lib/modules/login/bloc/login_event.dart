@@ -6,3 +6,5 @@ sealed class LoginEvent extends Equatable {
   @override
   List<Object> get props => [];
 }
+
+final class OtpSentEvent extends LoginEvent {}

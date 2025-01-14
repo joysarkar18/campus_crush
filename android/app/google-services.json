@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "361738641821",
+    "project_id": "campus-crush-10897",
+    "storage_bucket": "campus-crush-10897.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:361738641821:android:a0b8ce44e16bd33aaccf74",
+        "android_client_info": {
+          "package_name": "com.c2.campus_crush"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuMARvancxyVnZMNEIGe1h6Nr1fupfSC0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

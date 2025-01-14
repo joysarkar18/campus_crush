@@ -17,7 +17,7 @@ class OnboardingScreen extends StatelessWidget {
         ),
       ),
       body: Center(
-        child: Image.asset(Assets.imagesLogo),
+        child: Image.asset(Assets.imagesC2Logo),
       ),
     );
   }
